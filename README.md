@@ -42,24 +42,14 @@
 
 ## 🛠️ 获取与运行
 
-### 方式一：直接运行可执行文件（推荐）
-如果您不想配置代码环境，可以直接找到打包好的程序：
-1. 打开 `dist/` 文件夹。
-2. 双击运行 `filmsplitter.exe` 即可（无需安装 Python）。
+### Python 源码运行
 
-### 方式二：Python 源码运行
 1. **安装依赖**:
    ```bash
    pip install PySide6 numpy scipy opencv-python tifffile
    ```
+
 2. **运行程序**:
    ```bash
    python main.py
    ```
-
-### 📦 自己打包
-如果您想基于源码自己生成 `.exe`：
-```bash
-pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed --name "filmsplitter" main.py
-```
