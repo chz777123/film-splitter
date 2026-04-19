@@ -1,0 +1,6 @@
+numpy
+scipy
+opencv-python
+tifffile
+PySide6
+pytest
